@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import { HomePage } from './HomePage';
 import { AboutPage } from './AboutPage';
 import { MediaPage } from './MediaPage';
@@ -72,8 +72,7 @@ const Footer = () => {
 export const OwenAuPortfolio = ({
   'data-id': dataId
 }: OwenAuPortfolioProps) => {
-  return <BrowserRouter>
-      <div data-id={dataId} className="min-h-screen bg-white w-full">
+  return <div data-id={dataId} className="min-h-screen bg-white w-full">
         <Navigation />
 
         <main className="pt-20">
@@ -86,6 +85,5 @@ export const OwenAuPortfolio = ({
         </main>
 
         <Footer />
-      </div>
-    </BrowserRouter>;
+      </div>;
 };
