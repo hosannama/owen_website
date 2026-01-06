@@ -14,6 +14,16 @@ interface Publication {
   link: string;
 }
 const publications: Publication[] = [{
+  title: "What China’s Latest Military Drill Against Taiwan Tells About Its War Planning",
+  author: 'Owen Au',
+  publisher: 'China Maritime Watch',
+  date: '05 January 2026',
+  category: 'Geopolitics and Security',
+  image: 'https://substackcdn.com/image/fetch/$s_!fElZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb31f2e64-4f74-43c9-89a3-c44581b670e7_593x456.png',
+  excerpt: "Beyond full-scale invasion scenarios, the exercise reveals Beijing's growing emphasis on a prolonged, multi-domain blockade in its Taiwan contingency planning.",
+  link: 'https://chinamaritimewatch.substack.com/p/005-what-chinas-latest-military-drill'
+}, {
+
   title: "What Shanghai's Push for 5G at Sea Really Means for China",
   author: 'Owen Au',
   publisher: 'China Maritime Watch',
@@ -31,15 +41,6 @@ const publications: Publication[] = [{
   image: 'https://thediplomat.com/wp-content/uploads/2025/12/sizes/medium_large/thediplomat_2025-12-02-002218.jpg',
   excerpt: 'Hong Kong is stuck in a governance vacuum, where neither democratic nor authoritarian accountability functions effectively.',
   link: 'https://thediplomat.com/2025/12/no-hong-kongs-governance-is-not-becoming-like-chinas-its-actually-worse/'
-}, {
-  title: "China's Growing Interest in the Middle Corridor Presents a Dilemma for Europe",
-  author: 'Owen Au and Tin-Ching Leung',
-  publisher: 'CHOICE',
-  date: '10 December 2025',
-  category: 'Geopolitics and Security',
-  image: 'https://chinaobservers.eu/wp-content/uploads/2025/12/Rail_yard_Baku_P1090213-scaled-1-2048x1536.jpg',
-  excerpt: 'As the war in Ukraine continues, both Europe and China face growing incentives to diversify their trans-Eurasian connectivity. The Middle Corridor has therefore emerged as an increasingly attractive alternative to traditional routes.',
-  link: 'https://chinaobservers.eu/chinas-growing-interest-in-the-middle-corridor-presents-a-dilemma-for-europe/'
 }];
 const PublicationCard = ({
   publication,
