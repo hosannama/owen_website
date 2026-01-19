@@ -14,6 +14,17 @@ interface Publication {
   link: string;
 }
 const publications: Publication[] = [{
+
+  title: "Why China Is Accelerating Its Push into the Deep Sea",
+  author: 'Owen Au',
+  publisher: 'China Maritime Watch',
+  date: '19 January 2026',
+  category: 'Maritime Strategy',
+  image: 'https://substackcdn.com/image/fetch/$s_!MvNh!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4cc935d1-05c9-401f-807f-45609a02c903_958x571.png',
+  excerpt: "The deep sea is emerging as a strategic new frontier where technological capability, supply chain security, and rule-making power intersect – with China determined to take the lead.",
+  link: 'https://chinamaritimewatch.substack.com/p/006-why-china-is-accelerating-its'
+}, {
+
   title: "What China’s Latest Military Drill Against Taiwan Tells About Its War Planning",
   author: 'Owen Au',
   publisher: 'China Maritime Watch',
@@ -32,15 +43,6 @@ const publications: Publication[] = [{
   image: 'https://substackcdn.com/image/fetch/$s_!fF83!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0566bb32-d986-4ddd-90e8-b6b989b5ecd6_4096x3072.jpeg',
   excerpt: "Not merely a network connectivity upgrade, it is a testing ground for the country's smart ocean agenda, with economic governance and security implications.",
   link: 'https://chinamaritimewatch.substack.com/p/004-what-shanghais-push-for-5g-at'
-}, {
-  title: "No, Hong Kong's Governance Is Not Becoming Like China's. It's Actually Worse.",
-  author: 'Owen Au',
-  publisher: 'The Diplomat',
-  date: '11 December 2025',
-  category: 'Hong Kong',
-  image: 'https://thediplomat.com/wp-content/uploads/2025/12/sizes/medium_large/thediplomat_2025-12-02-002218.jpg',
-  excerpt: 'Hong Kong is stuck in a governance vacuum, where neither democratic nor authoritarian accountability functions effectively.',
-  link: 'https://thediplomat.com/2025/12/no-hong-kongs-governance-is-not-becoming-like-chinas-its-actually-worse/'
 }];
 const PublicationCard = ({
   publication,
