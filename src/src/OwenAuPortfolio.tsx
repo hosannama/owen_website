@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
+import { ScrollToTop } from './ScrollToTop';
 import { HomePage } from './HomePage';
 import { AboutPage } from './AboutPage';
 import { MediaPage } from './MediaPage';
@@ -74,6 +75,7 @@ export const OwenAuPortfolio = ({
 }: OwenAuPortfolioProps) => {
   return <div data-id={dataId} className="min-h-screen bg-white w-full">
         <Navigation />
+        <ScrollToTop />
 
         <main className="pt-20">
           <Routes>

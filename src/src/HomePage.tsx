@@ -14,7 +14,16 @@ interface Publication {
   link: string;
 }
 const publications: Publication[] = [{
-
+title: "What China Is Bidding for in the New Maritime Governance Body",
+  author: 'Owen Au',
+  publisher: 'China Maritime Watch',
+  date: '02 February 2026',
+  category: 'Maritime Strategy',
+  image: 'https://substackcdn.com/image/fetch/$s_!UUp-!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff28e0e96-fd92-4b07-ad31-089deadfff96_800x574.jpeg',
+  excerpt: "Beyond environmental goals, the new international organisation is an institutional arena where China seeks to advance its global maritime leadership and strategic leverage across multiple fronts.",
+  link: 'https://chinamaritimewatch.substack.com/p/007-what-china-is-bidding-for-in'
+},
+{
   title: "Why China Is Accelerating Its Push into the Deep Sea",
   author: 'Owen Au',
   publisher: 'China Maritime Watch',
@@ -33,16 +42,6 @@ const publications: Publication[] = [{
   image: 'https://substackcdn.com/image/fetch/$s_!fElZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb31f2e64-4f74-43c9-89a3-c44581b670e7_593x456.png',
   excerpt: "Beyond full-scale invasion scenarios, the exercise reveals Beijing's growing emphasis on a prolonged, multi-domain blockade in its Taiwan contingency planning.",
   link: 'https://chinamaritimewatch.substack.com/p/005-what-chinas-latest-military-drill'
-}, {
-
-  title: "What Shanghai's Push for 5G at Sea Really Means for China",
-  author: 'Owen Au',
-  publisher: 'China Maritime Watch',
-  date: '22 December 2025',
-  category: 'Maritime Strategy',
-  image: 'https://substackcdn.com/image/fetch/$s_!fF83!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0566bb32-d986-4ddd-90e8-b6b989b5ecd6_4096x3072.jpeg',
-  excerpt: "Not merely a network connectivity upgrade, it is a testing ground for the country's smart ocean agenda, with economic governance and security implications.",
-  link: 'https://chinamaritimewatch.substack.com/p/004-what-shanghais-push-for-5g-at'
 }];
 const PublicationCard = ({
   publication,

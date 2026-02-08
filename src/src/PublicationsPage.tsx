@@ -13,7 +13,18 @@ interface Publication {
   excerpt: string;
   link: string;
 }
-const publications: Publication[] = [{title: "Why China Is Accelerating Its Push into the Deep Sea",
+const publications: Publication[] = [{
+  title: "What China Is Bidding for in the New Maritime Governance Body",
+  author: 'Owen Au',
+  publisher: 'China Maritime Watch',
+  date: '02 February 2026',
+  category: 'Maritime Strategy',
+  image: 'https://substackcdn.com/image/fetch/$s_!UUp-!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff28e0e96-fd92-4b07-ad31-089deadfff96_800x574.jpeg',
+  excerpt: "Beyond environmental goals, the new international organisation is an institutional arena where China seeks to advance its global maritime leadership and strategic leverage across multiple fronts.",
+  link: 'https://chinamaritimewatch.substack.com/p/007-what-china-is-bidding-for-in'
+},
+{
+  title: "Why China Is Accelerating Its Push into the Deep Sea",
   author: 'Owen Au',
   publisher: 'China Maritime Watch',
   date: '19 January 2026',
