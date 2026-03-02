@@ -13,7 +13,16 @@ interface Publication {
   excerpt?: string;
   link: string;
 }
-const publications: Publication[] = [{
+const publications: Publication[] = [{title: "What China’s Maritime Ambition Is Actually About",
+  author: 'Owen Au',
+  publisher: 'China Maritime Watch',
+  date: '25 February 2026',
+  category: 'Maritime Strategy',
+  image: 'https://substackcdn.com/image/fetch/$s_!vMiM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a8b7ef3-cc78-459f-b9d2-1970f62a2752_1280x720.jpeg',
+  excerpt: "Beyond an expanding navy, China’s maritime ambition rests on an economy-driven framework linking resource security, technological leverage, institutional control, and territorial assertiveness.",
+  link: 'https://chinamaritimewatch.substack.com/p/008-what-chinas-maritime-ambition'
+},
+  {
 title: "What China Is Bidding for in the New Maritime Governance Body",
   author: 'Owen Au',
   publisher: 'China Maritime Watch',
@@ -59,7 +68,7 @@ const PublicationCard = ({
         <article className="w-full bg-white rounded-[15px] shadow-[2px_2px_2px_0px_rgba(0,89,173,0.50)] overflow-hidden hover:shadow-[6px_6px_15px_0px_rgba(0,89,173,0.60)] transition-shadow">
           <img className="w-full h-80 object-cover rounded-[15px] shadow-[0px_2px_2px_0px_rgba(0,89,173,1.00)]" src={publication.image} alt={publication.title} />
           <div className="p-6 space-y-3">
-            <span className="inline-block px-4 py-1 text-xs font-bold text-white bg-sky-950/80 rounded-[15px]">
+            <span className="inline-block px-4 py-1 text-xs font-bold text-white bg-stone-100 rounded-[15px]">
               {publication.category}
             </span>
             <h3 className="text-2xl font-bold text-black font-['Inter']">
@@ -81,7 +90,7 @@ const PublicationCard = ({
   }
   return <div ref={ref} className={`transition-all duration-700 ease-out ${inView ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-5 scale-95'}`}>
       <a href={publication.link} target="_blank" rel="noopener noreferrer" className="block">
-        <article className="w-full bg-white rounded-2xl shadow-[2px_2px_2px_0px_rgba(0,89,173,0.50)] overflow-hidden hover:shadow-[2px_2px_2px_0px_rgba(0,89,173,0.60)] transition-shadow">
+        <article className="w-full bg-white rounded-2xl shadow-[1px_1px_1px_1px_stone-100] overflow-hidden hover:shadow-[2px_2px_2px_0px_stone-100] transition-shadow">
           <img className="w-full h-48 object-cover rounded-t-2xl shadow-[0px_2px_2px_0px_rgba(0,89,173,1.00)]" src={publication.image} alt={publication.title} />
           <div className="p-4 space-y-2">
             <span className="inline-block px-4 py-1 text-xs font-bold text-white bg-sky-950/80 rounded-md">
