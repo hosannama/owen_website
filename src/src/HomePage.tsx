@@ -13,7 +13,26 @@ interface Publication {
   excerpt?: string;
   link: string;
 }
-const publications: Publication[] = [{title: "What China’s Maritime Ambition Is Actually About",
+const publications: Publication[] = [{title: "Does the Hormuz Crisis Show China Has Escaped the “Malacca Dilemma”?",
+  author: 'Owen Au',
+  publisher: 'China Maritime Watch',
+  date: '11 March 2026',
+  category: 'Geopolitics and Security',
+  image: 'https://substackcdn.com/image/fetch/$s_!qG-a!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07a39329-d04b-413c-a60c-6b0354f2058f_1924x1154.png',
+  excerpt: "Over two decades after Beijing first raised concerns over maritime chokepoint vulnerability, China’s efforts to mitigate the Malacca dilemma are now being tested in the Hormuz crisis.",
+  link: 'https://chinamaritimewatch.substack.com/p/009-does-the-hormuz-crisis-show-china'
+},{
+
+  title: "Hong Kong Is Beijing’s New ‘Vanguard’ in the Contest for Financial Sovereignty",
+  author: 'Ryan Wu and Owen Au',
+  publisher: 'The Diplomat',
+  date: '06 March 2026',
+  category: 'Hong Kong',
+  image: 'https://thediplomat.com/wp-content/uploads/2025/03/sizes/td-story-xl-2/thediplomat_2025-03-27-172723.jpg',
+  excerpt: "Beijing is formally repositioning Hong Kong from a neutral intermediary between Chinese and global capital into a “vanguard” of the state’s financial security architecture.",
+  link: 'https://thediplomat.com/2026/03/hong-kong-is-beijings-new-vanguard-in-the-contest-for-financial-sovereignty/'
+},
+  {title: "What China’s Maritime Ambition Is Actually About",
   author: 'Owen Au',
   publisher: 'China Maritime Watch',
   date: '25 February 2026',
@@ -21,36 +40,6 @@ const publications: Publication[] = [{title: "What China’s Maritime Ambition I
   image: 'https://substackcdn.com/image/fetch/$s_!vMiM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a8b7ef3-cc78-459f-b9d2-1970f62a2752_1280x720.jpeg',
   excerpt: "Beyond an expanding navy, China’s maritime ambition rests on an economy-driven framework linking resource security, technological leverage, institutional control, and territorial assertiveness.",
   link: 'https://chinamaritimewatch.substack.com/p/008-what-chinas-maritime-ambition'
-},
-  {
-title: "What China Is Bidding for in the New Maritime Governance Body",
-  author: 'Owen Au',
-  publisher: 'China Maritime Watch',
-  date: '02 February 2026',
-  category: 'Maritime Strategy',
-  image: 'https://substackcdn.com/image/fetch/$s_!UUp-!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff28e0e96-fd92-4b07-ad31-089deadfff96_800x574.jpeg',
-  excerpt: "Beyond environmental goals, the new international organisation is an institutional arena where China seeks to advance its global maritime leadership and strategic leverage across multiple fronts.",
-  link: 'https://chinamaritimewatch.substack.com/p/007-what-china-is-bidding-for-in'
-},
-{
-  title: "Why China Is Accelerating Its Push into the Deep Sea",
-  author: 'Owen Au',
-  publisher: 'China Maritime Watch',
-  date: '19 January 2026',
-  category: 'Maritime Strategy',
-  image: 'https://substackcdn.com/image/fetch/$s_!MvNh!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4cc935d1-05c9-401f-807f-45609a02c903_958x571.png',
-  excerpt: "The deep sea is emerging as a strategic new frontier where technological capability, supply chain security, and rule-making power intersect – with China determined to take the lead.",
-  link: 'https://chinamaritimewatch.substack.com/p/006-why-china-is-accelerating-its'
-}, {
-
-  title: "What China’s Latest Military Drill Against Taiwan Tells About Its War Planning",
-  author: 'Owen Au',
-  publisher: 'China Maritime Watch',
-  date: '05 January 2026',
-  category: 'Geopolitics and Security',
-  image: 'https://substackcdn.com/image/fetch/$s_!fElZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb31f2e64-4f74-43c9-89a3-c44581b670e7_593x456.png',
-  excerpt: "Beyond full-scale invasion scenarios, the exercise reveals Beijing's growing emphasis on a prolonged, multi-domain blockade in its Taiwan contingency planning.",
-  link: 'https://chinamaritimewatch.substack.com/p/005-what-chinas-latest-military-drill'
 }];
 const PublicationCard = ({
   publication,

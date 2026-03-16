@@ -14,6 +14,26 @@ interface Publication {
   link: string;
 }
 const publications: Publication[] = [{
+  title: "Does the Hormuz Crisis Show China Has Escaped the “Malacca Dilemma”?",
+  author: 'Owen Au',
+  publisher: 'China Maritime Watch',
+  date: '11 March 2026',
+  category: 'Geopolitics and Security',
+  image: 'https://substackcdn.com/image/fetch/$s_!qG-a!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07a39329-d04b-413c-a60c-6b0354f2058f_1924x1154.png',
+  excerpt: "Over two decades after Beijing first raised concerns over maritime chokepoint vulnerability, China’s efforts to mitigate the Malacca dilemma are now being tested in the Hormuz crisis.",
+  link: 'https://chinamaritimewatch.substack.com/p/009-does-the-hormuz-crisis-show-china'
+},
+{
+  title: "Hong Kong Is Beijing’s New ‘Vanguard’ in the Contest for Financial Sovereignty",
+  author: 'Ryan Wu and Owen Au',
+  publisher: 'The Diplomat',
+  date: '06 March 2026',
+  category: 'Hong Kong',
+  image: 'https://thediplomat.com/wp-content/uploads/2025/03/sizes/td-story-xl-2/thediplomat_2025-03-27-172723.jpg',
+  excerpt: "Beijing is formally repositioning Hong Kong from a neutral intermediary between Chinese and global capital into a “vanguard” of the state’s financial security architecture.",
+  link: 'https://thediplomat.com/2026/03/hong-kong-is-beijings-new-vanguard-in-the-contest-for-financial-sovereignty/'
+},
+{
   title: "What China’s Maritime Ambition Is Actually About",
   author: 'Owen Au',
   publisher: 'China Maritime Watch',
