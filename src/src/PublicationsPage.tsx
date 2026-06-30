@@ -14,6 +14,16 @@ interface Publication {
   link: string;
 }
 const publications: Publication[] = [{
+  title: "Fintech as Strategic Infrastructure: Hong Kong’s Role in China’s Financial Strategy",
+  author: 'Owen Au and Ryan Wu',
+  publisher: 'China Strategic Risks Institute',
+  date: '15 June 2026',
+  category: 'Hong Kong',
+  image: 'https://substackcdn.com/image/fetch/$s_!EJgu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2de21bf7-6318-4d51-8afe-bbdf4bd23d1c_1456x1048.png',
+  excerpt: "Although Hong Kong remains a leading hub for international capital flows, it can no longer be treated as a neutral financial centre.",
+  link: 'https://www.csri.global/research/fintech-as-strategic-infrastructure-hong-kongs-role-in-chinas-financial-strategy-and-implications-for-international-business'
+},
+{
   title: "Does the Hormuz Crisis Show China Has Escaped the “Malacca Dilemma”?",
   author: 'Owen Au',
   publisher: 'China Maritime Watch',

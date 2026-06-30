@@ -13,7 +13,16 @@ interface Publication {
   excerpt?: string;
   link: string;
 }
-const publications: Publication[] = [{title: "Does the Hormuz Crisis Show China Has Escaped the “Malacca Dilemma”?",
+const publications: Publication[] = [{title: "Fintech as Strategic Infrastructure: Hong Kong’s Role in China’s Financial Strategy",
+  author: 'Owen Au and Ryan Wu',
+  publisher: 'China Strategic Risks Institute',
+  date: '15 June 2026',
+  category: 'Hong Kong',
+  image: 'https://substackcdn.com/image/fetch/$s_!EJgu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2de21bf7-6318-4d51-8afe-bbdf4bd23d1c_1456x1048.png',
+  excerpt: "Although Hong Kong remains a leading hub for international capital flows, it can no longer be treated as a neutral financial centre.",
+  link: 'https://www.csri.global/research/fintech-as-strategic-infrastructure-hong-kongs-role-in-chinas-financial-strategy-and-implications-for-international-business'
+},
+{title: "Does the Hormuz Crisis Show China Has Escaped the “Malacca Dilemma”?",
   author: 'Owen Au',
   publisher: 'China Maritime Watch',
   date: '11 March 2026',
@@ -31,15 +40,6 @@ const publications: Publication[] = [{title: "Does the Hormuz Crisis Show China 
   image: 'https://thediplomat.com/wp-content/uploads/2025/03/sizes/td-story-xl-2/thediplomat_2025-03-27-172723.jpg',
   excerpt: "Beijing is formally repositioning Hong Kong from a neutral intermediary between Chinese and global capital into a “vanguard” of the state’s financial security architecture.",
   link: 'https://thediplomat.com/2026/03/hong-kong-is-beijings-new-vanguard-in-the-contest-for-financial-sovereignty/'
-},
-  {title: "What China’s Maritime Ambition Is Actually About",
-  author: 'Owen Au',
-  publisher: 'China Maritime Watch',
-  date: '25 February 2026',
-  category: 'Maritime Strategy',
-  image: 'https://substackcdn.com/image/fetch/$s_!vMiM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a8b7ef3-cc78-459f-b9d2-1970f62a2752_1280x720.jpeg',
-  excerpt: "Beyond an expanding navy, China’s maritime ambition rests on an economy-driven framework linking resource security, technological leverage, institutional control, and territorial assertiveness.",
-  link: 'https://chinamaritimewatch.substack.com/p/008-what-chinas-maritime-ambition'
 }];
 const PublicationCard = ({
   publication,
@@ -57,7 +57,7 @@ const PublicationCard = ({
         <article className="w-full bg-white rounded-[15px] shadow-[2px_2px_2px_0px_rgba(0,89,173,0.50)] overflow-hidden hover:shadow-[6px_6px_15px_0px_rgba(0,89,173,0.60)] transition-shadow">
           <img className="w-full h-80 object-cover rounded-[15px] shadow-[0px_2px_2px_0px_rgba(0,89,173,1.00)]" src={publication.image} alt={publication.title} />
           <div className="p-6 space-y-3">
-            <span className="inline-block px-4 py-1 text-xs font-bold text-white bg-stone-100 rounded-[15px]">
+            <span className="inline-block px-4 py-1 text-xs font-bold text-sky-950 bg-stone-100 rounded-[15px]">
               {publication.category}
             </span>
             <h3 className="text-2xl font-bold text-black font-['Inter']">
@@ -120,7 +120,7 @@ export const HomePage = () => {
               </div>
 
               <div className="space-y-2 flex flex-col mt-4 gap-2 text-sm text-sky-950">
-                <span>Email: chowen.au@gmail.com</span>
+                <span>Email: owen.au@strategicchinapolicy.org</span>
                 <span>
                   <a href="https://linkedin.com/in/owen-au-01oa" target="_blank" rel="noopener noreferrer" className="hover:underline">
                     LinkedIn: linkedin.com/in/owen-au-01oa
@@ -147,18 +147,16 @@ export const HomePage = () => {
         <div className="bg-gradient-to-b from-gray-900 to-blue-900 rounded-[15px] p-12 relative overflow-hidden shadow-[2px_2px_4px_0px_rgba(0,89,173,0.50)]">
           <div className="max-w-3xl mx-auto text-white space-y-6">
             <p className="text-sm font-semibold font-['Inter'] leading-6">
-              Owen Au is an independent analyst with international experience in
-              policy research and engagement.
+              Owen Au is a China analyst with international experience in policy research and engagement.
             </p>
             <p className="text-sm font-normal font-['Inter'] leading-6">
-            Interested in the implications of the rise of China for Europe and the international order, he focuses on analysing China’s maritime strategy and foreign relations, as well as political transformation and securitisation in Hong Kong.
+           Interested in the implications of China’s rise for Europe and the international order, he focuses on China’s maritime strategy and foreign relations, as well as political transformation and securitisation in Hong Kong.
             </p>
             <p className="text-sm font-normal font-['Inter'] leading-6">
-              He currently manages the{' '}
-              <span className="italic font-medium">China Maritime Watch</span>, a Substack newsletter that monitors China’s comprehensive sea power agenda through primary-source analysis and is updated biweekly.
-            </p>
+             He is a Research Associate at the China Strategic Risks Institute (CSRI), and he also manages China Maritime Watch, a Substack newsletter monitoring China’s comprehensive sea power agenda through primary-source analysis.
+             </p> 
             <p className="text-sm font-normal font-['Inter'] leading-6">
-              Please feel free reach out for project-based collaboration or to enquire about his work.
+             Please feel free to reach out for project-based collaboration or to enquire about his work.
             </p>
           </div>
         </div>

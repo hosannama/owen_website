@@ -62,7 +62,7 @@ const Navigation = () => {
 const Footer = () => {
   return <footer className="border-t border-black/20 py-8 md:py-16">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <p className="text-sky-950 text-xs font-['Inter']">chowen.au@gmail.com
+        <p className="text-sky-950 text-xs font-['Inter']">owen.au@strategicchinapolicy.org
         {' '}|{' '}
           <a href="https://www.linkedin.com/in/owen-au-01oa" target="_blank" rel="noopener noreferrer" className="text-sky-950 text-xs font-normal font-['Inter'] leading-5 hover:underline">LinkedIn
           </a>  
